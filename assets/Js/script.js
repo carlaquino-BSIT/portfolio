@@ -2,7 +2,7 @@ const row = document.getElementById("galleryRow");
 
       function scrollGallery(dir) {
         row.scrollBy({
-          left: dir * 300,
+          left: dir * (row.clientWidth * 0.7),
           behavior: "smooth",
         });
       }
